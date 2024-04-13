@@ -1,0 +1,36 @@
+internet connectivity
+login and signup, forgot password
+autovalidation or interactive validation
+Flash screen
+shared preference
+providers
+favorites 
+bottom navigation
+toast message for favorites indication 
+animation
+card view- image title description favorites icon
+
+
+
+favorites ordering of items (last favorite first come)
+add loading for clicking on favorite item till it displays
+add same to categories click
+cached image
+add zooming for images
+
+
+
+responsive sizer,
+phone number validation,
+payment,
+api keys hide
+
+
+navigate on click of snackbar
+add time validation for current
+cancel only if its less than 24hr
+
+eventsscreen
+dediflex
+my bookings
+chnge profile account

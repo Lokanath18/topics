@@ -1,0 +1,16 @@
+flutter web:
+add favicon
+webview package cant be used for web, so onclick directly open th website 
+added api key in index.html
+
+
+
+
+screentypelayout builder
+
+
+
+change the error and success dialog
+update profile
+refresh indicator for web
+

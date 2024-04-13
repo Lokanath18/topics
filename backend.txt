@@ -1,0 +1,68 @@
+NODE JS:
+install node from nodejs website
+
+npm init (or) npm init -y //to get package.json
+node index.js  //run the js
+
+
+(function (exports, require, module, __filename, __dirname){  
+}); //node js wraps the file in the above functions. So we can directly access above items. (ex: console.log(exports);)
+
+npm install -D  nodemon  //to install nodemon
+"dev" : "nodemon index.js"  //add this in package.json inside scripts
+npm run dev //to run live server
+
+if "import" is used add following inside package.json 
+"type": "module",
+
+//we can use i instead of install
+npm install mongoose
+npm install cors
+npm install express
+npm install dotenv
+npm install cookie-parser
+npm install express-session
+npm install connect-mongo //connect mongo to session
+npm install bcrypt //hashing password
+npm install jsonwebtoken //jwt tokens
+npm install socket.io //web sockets
+npm install multer  //to get image from the request
+npm install bodyParser //to get form type body
+
+
+
+MONGODB: 
+install mongodb
+install mongodb shell
+
+mongosh  //for entering mongodb shell
+show dbs //shows databases
+use db_name  //creates and enters db_name databse if not exists
+db.dropDatabase()  //delete database
+db.student.insertOne({"name":"name1","age":22}) //creating student collection along with its document containing fields
+show collections //shows collection inside db
+db.student.drop() //delete collections
+db.student.find()  //gives all documents of collections
+
+
+ch1
+ch2
+ch3
+express
+router
+params
+controller
+middleware
+mongo
+mongo_auth
+cookies
+session
+session_mongo
+reg_login
+jwt
+web_sockets
+sockets_flutter
+
+
+
+

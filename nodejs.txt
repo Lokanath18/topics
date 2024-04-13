@@ -1,0 +1,12 @@
+install node from nodejs website
+
+npm init (or) npm init -y //to get package.json
+node index.js  //run the js
+
+
+(function (exports, require, module, __filename, __dirname){  
+}); //node js wraps the file in the above functions. So we can directly access above items. (ex: console.log(exports);)
+
+npm install -D  nodemon  //to install nodemon
+"dev" : "nodemon index.js"  //add this in package.json inside scripts
+npm run dev //to run live server

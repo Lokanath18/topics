@@ -1,0 +1,96 @@
+Section1 : installations
+
+Section2 : widgets, positional and named arguements, constructor, buttons, staefull and stateless widgets, random number generation, linear gradient, setstate, image asset,
+
+Section3 : font usage, icons, transperancy, initstate, scrollable,
+
+Section4 : debugging, devtools,
+
+Section5 : card, listview, date format, textfield, textedittercontroll, datepicker, async and await, dropdown, dismissal, snackbars, theme, dark mode, 
+
+Section6: mediaquery, usesafe area, setpreffredorientation, layoutbuilder,
+
+Section7 : keys
+
+Section8 : navigator push, gridview, inkwell, stack widget, bottomnavigation bar, push replacement, side drawer,
+
+Section8 : providers
+
+Section10 : implicit and explicit animations, explicit:animationcontroller, implicit:animatedswitcher, hero
+
+Section11 : Form, validator, onSave, 
+
+Section12 : backend, http-post,get,delete, Futurebuilder widget,
+
+Section13 : image picker, flutter location
+
+Section14 : firebase, authentication, firebase cli and sdk, Firestore, chat message, streambuilder, push notifications,
+
+Section15 : course update 
+
+Section16 : course end
+
+
+
+Packages:
+flutter pub add transparent_image,(fade in image)
+flutter pub add google_fonts,(fonts)
+flutter pub add intl,(date format)
+flutter pub add uuid,(unique ids)
+flutter pub add flutter_riverpod,(riverpod providers)
+flutter pub add http,(backend)
+
+flutter pub add image_picker,(capture image)(do changes as in flutter website)(re-run the app)
+flutter pub add location,(access location)(do changes as in flutter website)(re-run the app)
+flutter pub add google_maps_flutter,(to show the map)(do changes as in flutter website)(re-run the app)
+flutter pub add path_provider,(provides path to store picked images)
+flutter pub add path,(path)
+flutter pub add sqflite,(local database)
+
+Firebase sdk usage in flutter apps:
+multiDexEnabled true
+minSdkVersion 19 (add these two to lines inside android/app/build.gradle - android { defaultConfig {....here} },
+flutter pub add firebase_core,
+flutterfire configure,
+
+WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );  (add this inside void main() )
+//https://firebase.google.com/docs/flutter/setup?platform=ios,
+
+flutter pub add firebase_auth,(authentication)
+flutter pub add firebase_storage,(access firebase storage)
+flutter pub add cloud_firestore,(access cloud firestore or firestore database)
+flutter pub add firebase_messaging,(push notification)
+
+keytool -list -v -keystore "C:\Users\PACE\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+
+flutter pub add provider,(providers)
+flutter pub add shared_preferences,(shared preference local storage)
+flutter pub add connectivity (connectivity_plus),(internet connection check)
+flutter pub add fluttertoast,(toast messages)
+
+flutter pub add google_sign_in,(google signin)
+flutter pub add flutter_facebook_auth,(facebook signin)
+
+flutter pub add google_maps_flutter,(google map),
+flutter pub add flutter_geocoder,(to get coordinates and addresses),
+flutter pub add geocoding,(to get coordinates and addresses, updated version)
+flutter pub add geolocator,(to get current location),
+flutter pub add custom_info_window,(customize info window of map),
+flutter pub add google_maps_widget,(to get route between two points),
+
+flutter pub add checkout_screen_ui,(payment screen)
+
+Localization(change app languages):
+https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization
+
+
+
+Flutter app launcher icon:
+https://medium.com/flutter-community/change-flutter-app-launcher-icon-59c31bcd7554
+
+Flutter apk build:
+flutter build apk --release
