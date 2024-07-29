@@ -1,6 +1,7 @@
 NODE JS:
 install node from nodejs website
 
+Create a index.js file
 npm init (or) npm init -y //to get package.json
 node index.js  //run the js
 
@@ -9,7 +10,7 @@ node index.js  //run the js
 }); //node js wraps the file in the above functions. So we can directly access above items. (ex: console.log(exports);)
 
 npm install -D  nodemon  //to install nodemon
-"dev" : "nodemon index.js"  //add this in package.json inside scripts
+"dev" : "nodemon index.js"  //add this inside scripts in package.json 
 npm run dev //to run live server
 
 if "import" is used add following inside package.json 
@@ -62,7 +63,3 @@ reg_login
 jwt
 web_sockets
 sockets_flutter
-
-
-
-
