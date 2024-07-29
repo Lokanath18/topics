@@ -2,7 +2,7 @@ To upload new file to gitlab:
 create folder
 git init
 git remote add origin https://git.pacewisdom.com/unhu/unhu_frontend.git //replace with your project repo
-git checkout -b branch_name
+git checkout -b branch_name //branch creation
 git add .
 git commit -m "comment"
 git push origin branch_name
